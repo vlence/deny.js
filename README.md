@@ -15,7 +15,7 @@ scripts into YOUR website and hog all the precious resources like CPU.
 
 ## Installation
 
-Copy and paste the contents of `deny.js` at the top of your HTMl file in
+Copy and paste the contents of `deny.js` to the top of your HTMl file in
 a `<script>` tag. Here's the whole thing for you.
 
 ```html
