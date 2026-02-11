@@ -87,4 +87,4 @@ Only two optional configuration options are available:
 - `allow` - A function to filter out which `<script>`s you want. If it
 returns false then the `<script>` is not loaded.
 
-[logo]: logo.png
+[logo]: logo.sm.png
