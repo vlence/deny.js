@@ -1,5 +1,7 @@
 # deny.js
 
+![deny.js Logo][logo]
+
 A simple library to stop `<script>` tags from being added to your
 website.
 
@@ -84,3 +86,5 @@ Only two optional configuration options are available:
 - `log` - A function used for logging
 - `allow` - A function to filter out which `<script>`s you want. If it
 returns false then the `<script>` is not loaded.
+
+[logo]: logo.png
