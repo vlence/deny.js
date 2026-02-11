@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="deny.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('textfield').value = 'No'
+        })
+    </script>
+</head>
+<body>
+    <label>
+        Did it work?
+        <input id="textfield" type="text" value="Yes" readonly>
+    </label>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('textfield').value = 'Maybe not?'
+        })
+    </script>
+</body>
+</html>

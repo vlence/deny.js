@@ -1,0 +1,13 @@
+{
+  "name": "deny",
+  "version": "0.0.1",
+  "description": "Deny scripts from being added",
+  "main": "deny.js",
+  "scripts": {
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
