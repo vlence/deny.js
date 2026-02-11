@@ -41,13 +41,11 @@
 </head>
 <body>
     <label>
-        Did it work?
+        Scripts blocked?
         <input id="textfield" type="text" value="Yes" readonly>
     </label>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('textfield').value = 'Maybe not?'
-        })
+        document.getElementById('textfield').value = 'Maybe not?'
     </script>
 </body>
 </html>
