@@ -1,12 +1,12 @@
 {
   "name": "deny",
   "version": "0.0.1",
-  "description": "Deny scripts from being added",
+  "description": "Deny scripts from being injected into your website",
   "main": "deny.js",
   "scripts": {
-    "start": "python3 -m http.server 8080"
+    "start": "python3 -m http.server --directory test 8000"
   },
-  "keywords": [],
+  "keywords": ["deny", "script", "execution", "loading", "injection"],
   "author": "",
   "license": "ISC",
   "type": "commonjs"
