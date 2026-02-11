@@ -69,9 +69,7 @@ a `<script>` tag. Here's the whole thing for you.
     </label>
     <script>
         // Another test
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('textfield').value = 'Maybe not?'
-        })
+        document.getElementById('textfield').value = 'Maybe not?'
     </script>
 </body>
 </html>
